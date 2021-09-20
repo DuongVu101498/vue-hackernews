@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="journeys"
+    errors="1" failures="0" hostname="" id="" package="journeys" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+        Error: An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 76&#34;
+   
+    </system-err>
+  
+
+    
+    <error message="An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 76&#34;"><![CDATA[
+      Error: An error occurred while retrieving a new session: &#34;session not created: This version of ChromeDriver only supports Chrome version 76&#34;
+    at Selenium2Protocol.handleSessionCreateError (D:\Training-Vue\vue-hackernews\node_modules\nightwatch\lib\transport\transport.js:110:15)
+    at HttpRequest.request.on.err (D:\Training-Vue\vue-hackernews\node_modules\nightwatch\lib\transport\transport.js:166:32)
+    at emitThree (events.js:136:13)
+    at HttpRequest.emit (events.js:217:7)
+    at HttpResponse.originalIssuer.on.args (D:\Training-Vue\vue-hackernews\node_modules\nightwatch\lib\http\request.js:143:19)
+    at emitThree (events.js:136:13)
+    at HttpResponse.emit (events.js:217:7)
+    at IncomingMessage.res.on (D:\Training-Vue\vue-hackernews\node_modules\nightwatch\lib\http\response.js:60:14)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="sanity test" classname="journeys">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
