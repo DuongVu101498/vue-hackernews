@@ -9,7 +9,7 @@ cd vue-hackernew
 # Install dependencies before run any test
 npm install
 
-<!-- run unit test
+# run unit test
 npm run test:unit
 
 # run e2e test
